@@ -123,5 +123,5 @@ You've now installed the key tools for developing with CAP locally, and are all 
 3. What is the significance of using the `--global` option when installing the `@sap/cds-dk` package?
 <!--- globally available --->
 
-4. What is the meaning of the `.vsix` file type for the VS Code extension? Can we dig into that to see what's inside?
-<!--- VSI (Visual Studio Installer) and with most things, we tacked an "x" on the end, unzip, contains extension (node app), manifest and xml --->
+4. Can you find another way to install extensions in Code? (Hint: look at the Activity Bar)
+<!--- Extension section at the activity bar can be used to add extensions --->

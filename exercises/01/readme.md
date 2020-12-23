@@ -69,15 +69,12 @@ Here you can see that the version of the `@sap/cds-dk` package just installed is
 
 ### 2. Install the CDS extension for VS Code
 
-To efficiently and comfortably develop CAP based services with CDS, there is an extension for the [VS Code](https://code.visualstudio.com/) IDE. This is available to download from the [SAP Development Tools](https://tools.hana.ondemand.com/) website.
+To efficiently and comfortably develop CAP based services with CDS, there is an extension for the [VS Code](https://code.visualstudio.com/) IDE. 
 
-Extensions can be installed directly in VS Code from the extension marketplace, or manually from a file. In this case the extension for CDS language support is available in the form of a file.
-
-:point_right: Go to the [Cloud section of the SAP Development Tools website](https://tools.hana.ondemand.com/#cloud) and find the "CDS Language Support for Visual Studio Code" section. Follow the instructions there to download and subsequently install the extension.
-
-To install the downloaded extension in VS Code have a look at the screenshot below:
-
-![CDS Extension installation in VS Code](vscode-extension-import.png)
+:point_right: To install the extension, proceed as follows:
+1.	Go [to Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds#overview).
+2.	Choose Install and VS Code opens the details page for the extension.
+3.	In VS Code choose Install to enable the extension.
 
 When successfully installed, you should see the extension thus (again, the version number may be different):
 

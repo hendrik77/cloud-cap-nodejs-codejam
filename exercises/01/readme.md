@@ -10,9 +10,9 @@ After completing these steps you'll have a working local environment for develop
 
 ### 1. Install the CDS command line tool
 
-The CDS command line tool is the heart of everything you do when developing CAP services locally. It is Node.js based and comes in the form of an NPM package (which further depends on other packages). The package and its dependencies are in the `@sap` namespace and are available from the [SAP NPM registry](https://blogs.sap.com/2017/05/16/sap-npm-registry-launched-making-the-lives-of-node.js-developers-easier/).
+The CDS command line tool is the heart of everything you do when developing CAP services locally. It is Node.js based and comes in the form of an NPM package (which further depends on other packages). The package and its dependencies are in the `@sap` namespace and are available from the [NPM registry](https://www.npmjs.com/). 
 
-:point_right: First, delete the reation of the `@sap` namespace to the SAP NPM registry (It's not updated anymore since June 2020):
+:point_right: First, delete the relation of the `@sap` namespace to the SAP NPM registry if created before (It's not updated anymore since June 2020):
 
 ```sh
 user@host:~
@@ -26,7 +26,7 @@ user@host:~
 => npm config ls
 ```
 
-You should see output similar to this:
+You should see output similar to this (wihtout the line @sap:registry = "https://npm.sap.com") :
 
 ```sh
 ; cli configs
@@ -35,7 +35,6 @@ scope = ""
 user-agent = "npm/6.4.1 node/v10.15.3 linux x64"
 
 ; userconfig /user/.npmrc
-@sap:registry = "https://npm.sap.com"
 
 ; node bin location = /user/.nvm/versions/node/v10.15.3/bin/node
 ; cwd = /
